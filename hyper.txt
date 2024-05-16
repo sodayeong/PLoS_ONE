@@ -1,0 +1,10 @@
+household_RF : {'max_features': 'auto', 'n_estimators': 128}
+household_GBM : {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 5, 'n_estimators': 500}
+household_XGBoost : {'booster': 'gbtree', 'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 1000, 'subsample': 1.0}
+household_LightGBM : {'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'n_estimators': 1000, 'num_leaves': 64, 'subsample': 0.5}
+
+KU_RF : {'max_features': 'auto', 'n_estimators': 128}
+KU_GBM :  {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 5, 'n_estimators': 500}
+KU_XGBoost : {'booster': 'gbtree', 'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 10, 'n_estimators': 1000, 'subsample': 1.0}
+KU_LightGBM : {'boosting_type': 'gbdt', 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'n_estimators': 1000, 'num_leaves': 64, 'subsample': 0.5}
+
